@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder Tour</title>
+    <link rel="icon" type="image/x-icon" href="./src/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/utilities.css">
+    <link rel="stylesheet" href="./src/css/components.css">
+    <link rel="stylesheet" href="./src/css/sections.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<!-- BEM -->
+<!-- BLOCK _ ELEMENT _ MODIFIER -->
+
+<body>
+    <header class="page-header">
+        <div class="page-header__top-bar container">
+            <button class="btn-icon btn-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <img class="page-header__logo" src="./src/images/logo.png" alt="Wonder Tour Logo">
+
+            <div class="page-header__service-wrapper">
+                <div class="page-header__service fw-500">
+                    <div class="page-header__service__item">
+                        <i class="fa-regular fa-clock"></i>
+                        <div>09:00AM - 05:00PM</div>
+                    </div>
+
+                    <div class="vertical-ruler"></div>
+
+                    <div class="page-header__service__item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="link-text" href="tel:+1 323-913-4688">+1 323-913-4688</a>
+                    </div>
+                </div>
+
+                <a href="#">
+                    <button class="btn btn-primary">Get a Free Quote</button>
+                </a>
+            </div>
+
+            <button class="btn-icon btn-more">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </button>
+        </div>
+
+        <div class="page-header__bottom-bar bg-dark">
+            <div class="container text-white fw-500">
+                <nav class="page-header__nav">
+                    <ul class="page-header__nav-links">
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Home</span></a>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>About</span></a>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Our Tours</span></a>
+
+                            <ul class="page-header__nav-links__sub-menu">
+                                <li>
+                                    <a href="">Single Tours</a>
+                                </li>
+                                <li>
+                                    <a href="">Group Tours</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Gallery</span></a>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Blog</span></a>
+
+                            <ul class="page-header__nav-links__sub-menu">
+                                <li>
+                                    <a href="">Blog 1</a>
+                                </li>
+                                <li>
+                                    <a href="">Blog 2</a>
+                                </li>
+                                <li>
+                                    <a href="">Blog 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Contact Us</span></a>
+                        </li>
+                        <li class="page-header__nav-links__item">
+                            <a href="#"><span>Pages</span></a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <nav class="page-header__social-links">
+                    <a class="link-text" href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a class="link-text" href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a class="link-text" href="#">
+                        <i class="fa-brands fa-google-plus-g"></i>
+                    </a>
+                    <a class="link-text" href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="hero-content container text-white">
+                <h6 class="fw-500 uppercase">A team of professional travel experts</h6>
+                <h1>Trust <span class="fw-700">Our Experience</span></h1>
+
+                <a href="#">
+                    <button class="btn btn-secondary">Get in touch</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="tour-categories-section bg-grey">
+            <div class="tour-categories-container container">
+                <a class="tour-category" href="#">
+                    <figure>
+                        <img src="./src/images/tour-cat-1.jpg" alt="Ballon Flights">
+                        <figcaption>
+                            <h5 class="fw-700">Ballon Flights</h5>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="tour-category" href="#">
+                    <figure>
+                        <img src="./src/images/tour-cat-2.jpg" alt="Mountain Holiday">
+                        <figcaption>
+                            <h5 class="fw-700">Mountain Holiday</h5>
+                        </figcaption>
+                    </figure>
+                </a>
+                <a class="tour-category" href="#">
+                    <figure>
+                        <img src="./src/images/tour-cat-3.jpg" alt="Beach Holiday">
+                        <figcaption>
+                            <h5 class="fw-700">Beach Holiday</h5>
+                        </figcaption>
+                    </figure>
+                </a>
+            </div>
+
+            <div class="text-center">
+                <a class="link-text" href="#">
+                    Other Tours
+                    <i class="fa-solid fa-arrow-right-long"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="achievements-section container-padding">
+            <h2 class="fw-600 text-center">7 Years of Following The Dream</h2>
+
+            <div class="achievements-container container">
+                <div class="achievements-item">
+                    <div class="achievements-item__content content-center flex-column">
+                        <div class="achievements-item__content__number">
+                            <i class="fa-solid fa-trophy"></i>
+                            <h3 class="fw-700">12</h3>
+                        </div>
+                        <h5 class="fw-500">International Awards</h5>
+                    </div>
+                </div>
+                <div class="achievements-item">
+                    <div class="achievements-item__content content-center flex-column">
+                        <div class="achievements-item__content__number">
+                            <i class="fa-solid fa-face-smile-wink"></i>
+                            <h3 class="fw-700">+500</h3>
+                        </div>
+                        <h5 class="fw-500">Happy Travelers</h5>
+                    </div>
+                </div>
+                <div class="achievements-item">
+                    <div class="achievements-item__content content-center flex-column">
+                        <div class="achievements-item__content__number">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3 class="fw-700">42</h3>
+                        </div>
+                        <h5 class="fw-500">Team Members</h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="hot-tours-section container-padding bg-grey">
+            <h2 class="fw-600 text-center">Hot Tours</h2>
+
+            <ul class="container">
+                <li class="hot-tours-item bg-white">
+                    <div class="hot-tours-item__image">
+                        <img src="./src/images/hot-tour-1.jpg" alt="Spain, Benidorm">
+                    </div>
+
+                    <div class="hot-tours-item__info">
+                        <h5 class="hot-tours-item__info__price text-white">
+                            $790
+                            <div class="white-corner"></div>
+                        </h5>
+
+                        <h3 class="fw-600 h5">Spain, Benidorm</h3>
+                        <div class="hot-tours-item__info__rating">
+                            <div class="info__rating__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="#" class="link-text">
+                                <small>4 reviews</small>
+                            </a>
+                        </div>
+
+
+                        <p>Benidorm is a buzzing resort with a big reputation for beach holidays. Situated in sunny
+                            Costa
+                            Blanca, the town is one of the original Spanish beach resorts...</p>
+
+                        <a href="#">
+                            <button class="btn btn-primary">Book Now</button>
+                        </a>
+                    </div>
+                </li>
+
+                <li class="hot-tours-item bg-white">
+                    <div class="hot-tours-item__image">
+                        <img src="./src/images/hot-tour-2.jpg" alt="Benidorm Beach">
+                    </div>
+
+                    <div class="hot-tours-item__info">
+                        <h5 class="hot-tours-item__info__price price--2 text-white">
+                            $890
+                        </h5>
+
+                        <h3 class=" fw-600 h5">Mauritius Island, Africa</h3>
+                        <div class="hot-tours-item__info__rating">
+                            <div class="info__rating__stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half-stroke"></i>
+                            </div>
+                            <a href="#" class="link-text">
+                                <small>5 reviews</small>
+                            </a>
+                        </div>
+                        <p>The beautiful and inviting island nation of Mauritius is an ideal ‘flop and drop’ at the
+                            conclusion of your safari. Indulge in the delightful scents of the fragrant...</p>
+                        <a href="#">
+                            <button class="btn btn-primary">Book Now</button>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="team-members-section container container-padding">
+            <h2 class="fw-600 text-center">Different People - One Mission</h2>
+
+            <ul class="team-member-list">
+                <li class="team-member-item">
+                    <div class="team-member-item__image">
+                        <img src="./src/images/agent-1.jpg" alt="Diana Robinson">
+                    </div>
+
+                    <div class="team-member-item__info bg-grey text-center">
+                        <h6 class="fw-600">Diana Robinson</h6>
+                        <div class="team-member-item__info__title fw-500">Founder, Owner</div>
+                        <h6 class="fw-500 link-text">
+                            <a href="#">+1 323-913-4688</a>
+                        </h6>
+                    </div>
+                </li>
+                <li class="team-member-item">
+                    <div class="team-member-item__image">
+                        <img src="./src/images/agent-2.jpg" alt="Diana Robinson">
+                    </div>
+
+                    <div class="team-member-item__info bg-grey text-center">
+                        <h6 class="fw-600">Peter McMillan</h6>
+                        <div class="team-member-item__info__title fw-500">Travel Agent</div>
+                        <h6 class="fw-500 link-text">
+                            <a href="#">+1 323-913-4688</a>
+                        </h6>
+                    </div>
+                </li>
+                <li class="team-member-item">
+                    <div class="team-member-item__image">
+                        <img src="./src/images/agent-3.jpg" alt="Diana Robinson">
+                    </div>
+
+                    <div class="team-member-item__info bg-grey text-center">
+                        <h6 class="fw-600">Jill Peterson</h6>
+                        <div class="team-member-item__info__title fw-500">Tour Consultant</div>
+                        <h6 class="fw-500 link-text">
+                            <a href="#">+1 323-913-4688</a>
+                        </h6>
+                    </div>
+                </li>
+                <li class="team-member-item">
+                    <div class="team-member-item__image">
+                        <img src="./src/images/agent-4.jpg" alt="Diana Robinson">
+                    </div>
+
+                    <div class="team-member-item__info bg-grey text-center">
+                        <h6 class="fw-600">James Smith</h6>
+                        <div class="team-member-item__info__title fw-500">PR Manager</div>
+                        <h6 class="fw-500 link-text">
+                            <a href="#">+1 323-913-4688</a>
+                        </h6>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section class="blogs-section bg-grey container-padding">
+            <div class="container">
+                <h2 class="fw-600 text-center">Latest Blog Posts</h2>
+
+                <ul class="blogs-list">
+                    <li class="blogs-item text-center">
+                        <div class="blogs-item__img">
+                            <img src="./src/images/blog-1.jpg" alt="Picture of a resort with pool">
+                        </div>
+
+                        <div class="blogs-item__text-content">
+                            <a class="link-text" href="#">
+                                <h3 class="fw-600 h5">Top 10 Hotels: Rating by Wonder Tour Travel Experts</h3>
+                            </a>
+
+                            <div class="blogs-item__text-content__animation-box">
+                                <time datetime="2020-05-17" class="text-primary uppercase fw-500">MAY 17, 2020</time>
+
+                                <ul class="text-content__animation-box__social-links-list">
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="blogs-item text-center">
+                        <div class="blogs-item__img">
+                            <img src="./src/images/blog-2.jpg" alt="Picture of a resort with pool">
+                        </div>
+
+                        <div class="blogs-item__text-content">
+                            <a class="link-text" href="#">
+                                <h3 class="fw-600 h5">Your Personal Guide to 5 Best Places to Visit on Earth</h3>
+                            </a>
+
+                            <div class="blogs-item__text-content__animation-box">
+                                <time datetime="2020-05-12" class="text-primary uppercase fw-500">May 12, 2020</time>
+
+                                <ul class="text-content__animation-box__social-links-list">
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-google-plus-g"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="link-button" href="#">
+                                            <i class="fa-brands fa-instagram"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="box-slider-dots">
+                <div class="box-slider-dot active"></div>
+                <div class="box-slider-dot"></div>
+                <div class="box-slider-dot"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark container-padding">
+        <div class="page-footer container text-white">
+            <div class="page-footer__section">
+                <h3 class="h6 fw-500">CONTACT US</h3>
+
+                <ul>
+                    <li class="footer-contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a class="link-text" href="tel:+1 323-913-4688">+1 323-913-4688</a>
+                    </li>
+                    <li class="footer-contact-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a class="link-text" href="mailto:info@demolink.org">info@demolink.org</a>
+                    </li>
+                    <li class="footer-contact-item">
+                        <i class="fa-solid fa-location-arrow"></i>
+                        <a class="link-text" href="#">4730 Crystal Springs Dr, Los Angeles, CA 90027</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="page-footer__section">
+                <h3 class="h6 fw-500">POPULAR NEWS</h3>
+
+                <ul>
+                    <li class="footer-news-item">
+                        <a class="link-text-primary" href="#">Your Personal Guide to 5 Best Places to Visit on Earth</a>
+                        <time datetime="2020-05-04">
+                            <small class="text-grey">May 04, 2020</small>
+                        </time>
+                    </li>
+                    <li class="footer-news-item">
+                        <a class="link-text-primary" href="#">Top 10 Hotels: Rating by Wonder Tour Travel Experts</a>
+                        <time datetime="2020-05-04">
+                            <small class="text-grey">May 04, 2020</small>
+                        </time>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="page-footer__section">
+                <h3 class="h6 fw-500">QUICK LINKS</h3>
+
+                <ul class="footer-quick-links">
+                    <li class="footer-quick-links__item">
+                        <i class="fa-solid fa-circle"></i>
+                        <a class="link-text" href="#">About Us</a>
+                    </li>
+                    <li class="footer-quick-links__item">
+                        <i class="fa-solid fa-circle"></i>
+                        <a class="link-text" href="#">Our Tours</a>
+                    </li>
+                    <li class="footer-quick-links__item">
+                        <i class="fa-solid fa-circle"></i>
+                        <a class="link-text" href="#">Our Team</a>
+                    </li>
+                    <li class="footer-quick-links__item">
+                        <i class="fa-solid fa-circle"></i>
+                        <a class="link-text" href="#">Gallery</a>
+                    </li>
+                    <li class="footer-quick-links__item">
+                        <i class="fa-solid fa-circle"></i>
+                        <a class="link-text" href="#">Blog</a>
+                    </li>
+                </ul>
+
+                <button class="btn btn-primary">Get in touch</button>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btnMenu = document.querySelector('.btn-menu')
+        const btnMore = document.querySelector('.btn-more')
+        const bottomBar = document.querySelector('.page-header__bottom-bar')
+        const serviceWrapper = document.querySelector('.page-header__service-wrapper')
+
+        btnMenu.addEventListener('click', () => {
+            bottomBar.classList.toggle('show');
+        });
+        btnMore.addEventListener('click', () => {
+            serviceWrapper.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
